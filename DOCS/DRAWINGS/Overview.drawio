@@ -1,0 +1,62 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="jlZUeSmY6P5bvzaMmSrL">
+    <mxGraphModel dx="2293" dy="2272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-1" value="Mainboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-3" value="Power Supply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.201;entryDx=0;entryDy=0;startArrow=classic;startFill=1;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="u3lSdFgdoLTDlFQGebtI-3" target="u3lSdFgdoLTDlFQGebtI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-6" value="PCB Specific pogo interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-9" value="I/O Board (front)&lt;div&gt;Status Leds&lt;/div&gt;&lt;div&gt;Switches&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-14" value="Integrated SBC controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.313;exitY=1.031;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;startArrow=classic;startFill=1;exitPerimeter=0;" edge="1" parent="1" source="u3lSdFgdoLTDlFQGebtI-22" target="u3lSdFgdoLTDlFQGebtI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;startArrow=classic;startFill=1;" edge="1" parent="1" source="u3lSdFgdoLTDlFQGebtI-14" target="u3lSdFgdoLTDlFQGebtI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.38" y="360" as="sourcePoint" />
+            <mxPoint x="439.38" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-19" value="Onboard Switches&amp;nbsp;&lt;div&gt;(board loaded)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.201;entryDx=0;entryDy=0;startArrow=classic;startFill=1;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="u3lSdFgdoLTDlFQGebtI-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.201;entryDx=0;entryDy=0;startArrow=classic;startFill=1;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="722" y="259.55" as="targetPoint" />
+            <mxPoint x="640" y="259.55" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-22" value="Interfaces (back)&lt;br&gt;- Mainboard USB-C (slave mode)&lt;div&gt;- SBC Interfaces (ETH, HDMI, USB)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="-220" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u3lSdFgdoLTDlFQGebtI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.686;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="u3lSdFgdoLTDlFQGebtI-14" target="u3lSdFgdoLTDlFQGebtI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
