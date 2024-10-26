@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UTJ_Mainboard.kicad_pro",
+    "filename": "UMMTJ_Mainboard_Mockup.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -482,7 +482,7 @@
       "plot": "../testjig_mobo_mockup/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "UMMTJ_Mainboard_Mockup.step",
       "svg": "",
       "vrml": ""
     },
