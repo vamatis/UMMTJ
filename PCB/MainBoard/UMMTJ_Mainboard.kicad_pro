@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UTJ_Mainboard.kicad_pro",
+    "filename": "UMMTJ_Mainboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -602,6 +602,10 @@
     [
       "fda214a4-6046-4b80-97b3-09a5468241a6",
       "USB"
+    ],
+    [
+      "044b4919-3e0a-459c-a2e4-a478e3507ff0",
+      "Analog Sections"
     ]
   ],
   "text_variables": {}

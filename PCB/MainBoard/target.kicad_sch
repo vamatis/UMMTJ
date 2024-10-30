@@ -1827,6 +1827,108 @@
 			)
 		)
 	)
+	(bus_entry
+		(at 148.59 58.42)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24faf1c4-9af4-4639-bc73-c109a7513745")
+	)
+	(bus_entry
+		(at 148.59 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7858f57-6500-446c-b0fb-33b2b9ac0690")
+	)
+	(bus
+		(pts
+			(xy 151.13 60.96) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139fef91-8a40-41d4-adc3-19944f464ab0")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20862396-7c50-40ce-9426-0d3bf559b48e")
+	)
+	(bus
+		(pts
+			(xy 151.13 66.04) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43f4a93-5e5c-4933-9846-8497b1ac995d")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c24399-cef2-4d0a-beaa-1c151ac1c418")
+	)
+	(bus
+		(pts
+			(xy 151.13 71.12) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f419433f-cd54-4922-b550-0f9a8011f7bd")
+	)
+	(label "Target_D+"
+		(at 132.08 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06cefdc0-8f5a-4db4-8d45-5a98cd15cd5d")
+	)
+	(label "Target_D-"
+		(at 132.08 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28cfc23-853b-46e7-a286-1ebb7fc94773")
+	)
+	(hierarchical_label "Target_USB"
+		(shape bidirectional)
+		(at 156.21 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1624b06b-b2ac-4df9-8869-6e894592f486")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x30_Odd_Even")
 		(at 73.66 83.82 0)

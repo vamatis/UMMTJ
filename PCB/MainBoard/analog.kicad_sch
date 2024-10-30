@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8273055c-115d-4e5a-8b8b-d63343d551c8")
+	(paper "A4")
+	(lib_symbols)
+	(text "resistor bridge --> Mux 8-1 ---> 24bits i2C ADC"
+		(exclude_from_sim no)
+		(at 139.446 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcc4312e-88a6-440f-9891-8e983f5f44e9")
+	)
+)
