@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "5d8aa142-43ec-4065-9fbb-ad09ea8e424d")
 	(paper "A4")
+	(title_block
+		(title "STM32 Programmer")
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

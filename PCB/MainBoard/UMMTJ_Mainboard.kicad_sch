@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "e76a9466-b710-4eed-9024-c84e345b13c7")
 	(paper "A4")
+	(title_block
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -100,7 +105,7 @@
 	)
 	(text "Onboard AVR programmer"
 		(exclude_from_sim no)
-		(at 45.466 41.91 0)
+		(at 55.88 28.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -467,6 +472,86 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "AVR_USB" bidirectional
+			(at 24.13 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7443be80-d110-42a8-ac8a-35e6fffac2a0")
+		)
+		(pin "AVR_Prog" bidirectional
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49f6b8c4-5f88-4955-bb9b-6ed4f2cd6a71")
+		)
+		(pin "Onboard_5V" input
+			(at 24.13 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8654c526-c475-444e-b1ea-81a8463f602b")
+		)
+		(pin "AVR_Prog_ENABLE" input
+			(at 24.13 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6eecc18-7766-4766-89c9-982655fb76e6")
+		)
+		(pin "Target Power" input
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "900c982f-daac-4dfa-bccc-367c521abd30")
+		)
+		(pin "AVR_Prog_HeartBeat" output
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab68f390-00f2-412e-bad4-c8576a53db2d")
+		)
+		(pin "AVR_Prog_Running" output
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fffd8d7c-ae6f-42df-a88d-41b807d908b4")
+		)
+		(pin "AVR_Prog_Error" output
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "803c453e-6851-43d0-91c4-c3f3ab0fe73d")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"

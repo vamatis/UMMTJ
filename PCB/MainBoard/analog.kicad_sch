@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "8273055c-115d-4e5a-8b8b-d63343d551c8")
 	(paper "A4")
+	(title_block
+		(title "Analog Sections")
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols)
 	(text "resistor bridge --> Mux 8-1 ---> 24bits i2C ADC"
 		(exclude_from_sim no)

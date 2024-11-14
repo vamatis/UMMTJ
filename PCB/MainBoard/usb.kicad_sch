@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "6eb33bb5-0e55-4b24-92af-ca7e2ec14ca2")
 	(paper "A4")
+	(title_block
+		(title "USB Management")
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

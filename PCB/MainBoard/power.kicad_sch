@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "2fb6ed82-fcb0-484d-994b-e08930bd3b87")
 	(paper "A4")
+	(title_block
+		(title "Power Management")
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -1151,7 +1157,7 @@
 		)
 		(uuid "d1df079d-16ba-4892-a923-7d7f7fc9fe05")
 	)
-	(text "Power Selectable supply (target) + switch and current measurement\n\nVIn selectable + switch and current measurement\n\n5V onboard\n\n3V3 onboard"
+	(text "Target Power:\n\nPower Selectable supply (target) + switch and current measurement x2\n\nVIn selectable + switch and current measurement\n\nexternal source switch + current measurement\n\n\nOnboard Logic:\n\n3V3 onboard"
 		(exclude_from_sim no)
 		(at 110.236 82.804 0)
 		(effects

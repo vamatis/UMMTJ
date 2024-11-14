@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "88535032-7bad-4173-aed3-016bd1562c1f")
 	(paper "A4")
+	(title_block
+		(title "Target Connectors")
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x30_Odd_Even"
 			(pin_names

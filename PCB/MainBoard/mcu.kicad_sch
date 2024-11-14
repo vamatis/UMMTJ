@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "9ad2fb88-1b62-440b-aebc-c95ede27280e")
 	(paper "A4")
+	(title_block
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMJ MainBoard")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
