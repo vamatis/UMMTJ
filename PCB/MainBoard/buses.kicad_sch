@@ -1,0 +1,25 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "089e87ab-277d-4900-87d0-ec736b6f008a")
+	(paper "A4")
+	(title_block
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMTJ MainBoard")
+	)
+	(lib_symbols)
+	(hierarchical_label "Onboard_3V3"
+		(shape input)
+		(at 260.35 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d1a1476-fd47-4660-8596-a70a004178a3")
+	)
+)

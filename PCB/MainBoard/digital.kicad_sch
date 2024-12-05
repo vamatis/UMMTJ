@@ -1,0 +1,1974 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cdf321d7-ccaf-491d-bf75-e814a5a3545a")
+	(paper "A4")
+	(title_block
+		(date "2024-11-14")
+		(rev "v1.0 Rev A")
+		(comment 1 "UMMTJ MainBoard")
+	)
+	(lib_symbols
+		(symbol "Analog_Switch:MAX14662"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MAX14662"
+				(at 2.54 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14662.pdf"
+				(at 0 -48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, I²C/SPI interface, 1.6..5.5V supply, 0.425Ohm Ron, TQFN-28"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "analog switch octal SPST i2c spi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.4mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX14662_0_0"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CS}/AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX14662_0_1"
+				(rectangle
+					(start -7.62 25.4)
+					(end 7.62 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.016 -20.32)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -17.78)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -15.24)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -12.7)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -10.16)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.016 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -20.32) (xy -3.302 -20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -17.78) (xy -3.302 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -15.24) (xy -3.302 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -12.7) (xy -3.302 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -10.16) (xy -3.302 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -7.62) (xy -3.302 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -5.08) (xy -3.302 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.54) (xy -3.302 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -19.304) (xy 1.778 -19.304)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -16.764) (xy 1.778 -16.764)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -14.224) (xy 1.778 -14.224)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -11.684) (xy 1.778 -11.684)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -9.144) (xy 1.778 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.604) (xy 1.778 -6.604)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.064) (xy 1.778 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.524) (xy 1.778 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -19.304) (xy 0.254 -18.669)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -18.034) (xy 0.254 -17.399)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -16.764) (xy 0.254 -16.129)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -15.494) (xy 0.254 -14.859)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -14.224) (xy 0.254 -13.589)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -12.954) (xy 0.254 -12.319)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -11.684) (xy 0.254 -11.049)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -11.684) (xy 0.254 -11.049)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -10.414) (xy 0.254 -9.779)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -8.89) (xy 0.254 -8.255)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -7.62) (xy 0.254 -6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -6.35) (xy 0.254 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -5.08) (xy 0.254 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.81) (xy 0.254 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -2.54) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.27) (xy 0.254 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0.254 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.27) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -20.32) (xy 2.032 -20.32)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -17.78) (xy 2.032 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -15.24) (xy 2.032 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -12.7) (xy 2.032 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 2.032 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 2.032 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.032 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -20.32)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -17.78)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -15.24)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -12.7)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -10.16)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MAX14662_1_0"
+				(pin no_connect line
+					(at 7.62 22.86 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 20.32 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 17.78 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "DIN/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "DOUT/AD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX14662_1_1"
+				(rectangle
+					(start -7.62 20.32)
+					(end 3.81 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "SPI/~{I²C}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -20.32 180)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -17.78 180)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 17.78 0)
+					(length 2.54)
+					(name "~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "SCLK/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -20.32 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "3V3/10 MUX"
+		(exclude_from_sim no)
+		(at 251.206 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dee4d45-6414-4e9f-8149-fa40257889c6")
+	)
+	(text "3V3 MUX"
+		(exclude_from_sim no)
+		(at 79.248 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f4cd19d-dbbe-4279-ad89-2137ae644926")
+	)
+	(hierarchical_label "Target_Digital_Pin_uC"
+		(shape bidirectional)
+		(at 135.89 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e9673a9-6b2a-4f88-936d-452da6ec8937")
+	)
+	(hierarchical_label "Onboard_3V3"
+		(shape input)
+		(at 260.35 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4a19a02-bd39-4e89-9cee-ff75d7474678")
+	)
+	(hierarchical_label "Target_Digital_Pin"
+		(shape bidirectional)
+		(at 135.89 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f061a06a-4b6e-479b-82aa-5a965e9d654f")
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX14662")
+		(at 251.46 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "303bfdba-e065-45fa-b712-c54362433280")
+		(property "Reference" "U13"
+			(at 253.6541 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX14662"
+			(at 253.6541 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+			(at 251.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14662.pdf"
+			(at 251.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, I²C/SPI interface, 1.6..5.5V supply, 0.425Ohm Ron, TQFN-28"
+			(at 251.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "d4778208-6740-4631-b9f5-74d3a47e272d")
+		)
+		(pin "12"
+			(uuid "84351e6f-46cc-4554-a68d-26551910f582")
+		)
+		(pin "23"
+			(uuid "c7191858-6de9-44bd-bf49-e09e37bf2246")
+		)
+		(pin "27"
+			(uuid "49915501-e7ec-4e26-9a18-d30326289cee")
+		)
+		(pin "13"
+			(uuid "2d9f3b4b-fe75-4dba-90c5-333580aef10e")
+		)
+		(pin "28"
+			(uuid "ecceac22-1330-48e6-908d-01de24af2624")
+		)
+		(pin "1"
+			(uuid "11a1c0f1-33a3-4e05-93a5-501cf3cce054")
+		)
+		(pin "11"
+			(uuid "6e6a4cc3-e672-45a8-82a4-6a2982c674a9")
+		)
+		(pin "14"
+			(uuid "506a8ca3-6732-4ae9-9da1-ede0623dda5c")
+		)
+		(pin "15"
+			(uuid "04613734-7512-471d-9385-101f0b9823a7")
+		)
+		(pin "16"
+			(uuid "2da17d2e-1dc2-4877-a0e3-c692693e375c")
+		)
+		(pin "17"
+			(uuid "e08195bc-b704-414d-8192-9c85d81c29b5")
+		)
+		(pin "18"
+			(uuid "350b5f7b-c2ea-4e3f-a259-7b21acc8014d")
+		)
+		(pin "19"
+			(uuid "dfa6f13e-52ef-457f-81f6-128761b80646")
+		)
+		(pin "2"
+			(uuid "be9cf4db-c913-48ed-9a3e-f1b23520b3e2")
+		)
+		(pin "20"
+			(uuid "d72ac5aa-6d0b-4166-ba19-caff5a472033")
+		)
+		(pin "21"
+			(uuid "38eca050-413a-4a59-8586-ecb070ce1255")
+		)
+		(pin "22"
+			(uuid "2f621bf1-5c7b-4250-88dc-3f62bc429aa8")
+		)
+		(pin "24"
+			(uuid "bd0c0530-bf28-40da-a1e9-b798e058af70")
+		)
+		(pin "25"
+			(uuid "a434575b-7e93-48fb-812c-8bfe5e435d56")
+		)
+		(pin "29"
+			(uuid "566f0535-e17c-4293-92fb-275ff2be4daf")
+		)
+		(pin "3"
+			(uuid "9d15450d-b409-4e18-9358-b3a1fbc9ab65")
+		)
+		(pin "4"
+			(uuid "855a972b-c39c-4146-8b51-ab6baa257ea9")
+		)
+		(pin "5"
+			(uuid "f3137800-a5c4-4ba9-ac25-6004f1fb6872")
+		)
+		(pin "26"
+			(uuid "e2848c96-4fc9-4993-bd22-93f7b5e95caf")
+		)
+		(pin "6"
+			(uuid "76f46fa0-900a-4a71-8be4-569ad11c4e1e")
+		)
+		(pin "7"
+			(uuid "f34e7af7-a877-42c0-8a17-36e628cfe249")
+		)
+		(pin "8"
+			(uuid "168edf6c-9d07-4d82-915e-c981fa33705c")
+		)
+		(pin "9"
+			(uuid "3fb62202-8afd-472c-8576-e95028ac75da")
+		)
+		(instances
+			(project "UMMTJ_Mainboard"
+				(path "/e76a9466-b710-4eed-9024-c84e345b13c7/5b058eea-716c-49c8-9bfe-6c443a88fe71"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX14662")
+		(at 46.99 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e72360-690d-4e6c-9b4c-68684e173c6f")
+		(property "Reference" "U7"
+			(at 49.1841 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX14662"
+			(at 49.1841 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14662.pdf"
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, I²C/SPI interface, 1.6..5.5V supply, 0.425Ohm Ron, TQFN-28"
+			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "af7a38dd-78f2-4ec6-8334-bf4b8b757594")
+		)
+		(pin "12"
+			(uuid "46295df5-adbe-4845-b058-bcb331cd4534")
+		)
+		(pin "23"
+			(uuid "9e015ce6-9bdc-48cb-8635-6f2f5f66f31e")
+		)
+		(pin "27"
+			(uuid "0134db5e-088d-4ae5-b55c-8535b37764b2")
+		)
+		(pin "13"
+			(uuid "ae0b8f54-2a51-4eae-bf48-59c2d348732d")
+		)
+		(pin "28"
+			(uuid "f606be51-4eeb-4b5a-8a97-f8e5c9eaba24")
+		)
+		(pin "1"
+			(uuid "4dea2474-891d-4041-a06e-e6bef3271d41")
+		)
+		(pin "11"
+			(uuid "5238729a-510d-448a-bc6b-771414205659")
+		)
+		(pin "14"
+			(uuid "ff6aa3a7-1a49-482b-b394-d998db0fff21")
+		)
+		(pin "15"
+			(uuid "914e6b1a-325a-4249-a3e6-e9a86a02d2e5")
+		)
+		(pin "16"
+			(uuid "395beb3e-6228-4806-a22d-1b30f5ad071a")
+		)
+		(pin "17"
+			(uuid "dee7c71a-f10c-4e98-8b51-2c09e4dc79b7")
+		)
+		(pin "18"
+			(uuid "3a6c350a-6f4c-4c1d-bf0b-561f17693435")
+		)
+		(pin "19"
+			(uuid "d63814f6-d9c0-4245-8c1d-e8a8d4b8fbde")
+		)
+		(pin "2"
+			(uuid "b9184435-308f-4dc6-8a7a-6f8f35d18de1")
+		)
+		(pin "20"
+			(uuid "06f79296-fb5a-4a0e-ab99-6427a160c46d")
+		)
+		(pin "21"
+			(uuid "60c60486-780d-403a-81c0-8b7476babddc")
+		)
+		(pin "22"
+			(uuid "275eead3-30f1-4dc9-916c-623b3c32a52f")
+		)
+		(pin "24"
+			(uuid "d5a025f7-23f2-48d2-8211-115be5793390")
+		)
+		(pin "25"
+			(uuid "0214ca4a-eb56-4c01-8876-124bced1fa84")
+		)
+		(pin "29"
+			(uuid "f0feadb7-ec71-45c8-b78f-227875653516")
+		)
+		(pin "3"
+			(uuid "9404b317-df13-4d87-861e-a1bd39b13d04")
+		)
+		(pin "4"
+			(uuid "693e28a6-4c26-49b5-971c-ba4edba6de70")
+		)
+		(pin "5"
+			(uuid "0bcc8319-4b55-430c-bd50-0e2ad23b693b")
+		)
+		(pin "26"
+			(uuid "60258164-9ca7-4bad-96ce-d062f8db33ef")
+		)
+		(pin "6"
+			(uuid "b1592e8c-0bc4-47f1-b260-af6fac6d9404")
+		)
+		(pin "7"
+			(uuid "20d4bae6-72a9-43fd-887a-4c4627a79299")
+		)
+		(pin "8"
+			(uuid "6096fe56-4700-43b3-a75e-aae9f3868c6b")
+		)
+		(pin "9"
+			(uuid "532bc76e-e24a-4e3c-89fd-d87ef8f1cf63")
+		)
+		(instances
+			(project ""
+				(path "/e76a9466-b710-4eed-9024-c84e345b13c7/5b058eea-716c-49c8-9bfe-6c443a88fe71"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX14662")
+		(at 90.17 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b30945-08f0-4d60-8c6c-2c4e6670509f")
+		(property "Reference" "U8"
+			(at 92.3641 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX14662"
+			(at 92.3641 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14662.pdf"
+			(at 90.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, I²C/SPI interface, 1.6..5.5V supply, 0.425Ohm Ron, TQFN-28"
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "073c7ec9-5438-4f9c-8e8a-e03df0ff7ab6")
+		)
+		(pin "12"
+			(uuid "9c7673e1-8a22-4806-9f18-25468df1629b")
+		)
+		(pin "23"
+			(uuid "12b47700-a6a7-412f-999c-454d93bbaeec")
+		)
+		(pin "27"
+			(uuid "d3039a0e-161c-4c39-8f9f-0d59ac9a05bf")
+		)
+		(pin "13"
+			(uuid "d76cf43d-f40d-4680-b6bb-796eac62de16")
+		)
+		(pin "28"
+			(uuid "c0340246-d495-46bd-9871-f604bd95cfdf")
+		)
+		(pin "1"
+			(uuid "a4403e4c-6bd3-48b9-80b6-d81847f89908")
+		)
+		(pin "11"
+			(uuid "cb4e9d0b-5ab8-4e02-aee7-f7e114c38da7")
+		)
+		(pin "14"
+			(uuid "bb1693d5-320c-401b-b29b-66fc6675f3c6")
+		)
+		(pin "15"
+			(uuid "a867a294-9864-45bd-8063-7079d7b9ee24")
+		)
+		(pin "16"
+			(uuid "00c5747b-1683-4ea9-ab59-c030b2d5467f")
+		)
+		(pin "17"
+			(uuid "f224c69a-1778-4347-bd8b-a405bab3f33b")
+		)
+		(pin "18"
+			(uuid "d87805a2-6739-472c-b90b-21a0a31da83b")
+		)
+		(pin "19"
+			(uuid "c99944e5-222f-4180-8030-efa8492d4e86")
+		)
+		(pin "2"
+			(uuid "dd219012-21ff-491f-a24e-1f0c8f771f6c")
+		)
+		(pin "20"
+			(uuid "f3d25700-eab8-4c10-b030-3db00a978786")
+		)
+		(pin "21"
+			(uuid "cb64873d-7ef2-4ede-a3f1-7df32002010a")
+		)
+		(pin "22"
+			(uuid "b4d7c4a3-eb49-4f9c-8e67-674be2cea63d")
+		)
+		(pin "24"
+			(uuid "6d0e0f95-b10f-4893-ad6f-adcc8faf10a8")
+		)
+		(pin "25"
+			(uuid "a4e6d1f6-eb4b-4429-b178-57b73f77858b")
+		)
+		(pin "29"
+			(uuid "2aebe9be-090c-4e0d-93a3-d0b36c5e5b90")
+		)
+		(pin "3"
+			(uuid "a57356c6-d4b3-473b-bc40-e97da3c5bf0e")
+		)
+		(pin "4"
+			(uuid "7bfa5737-93eb-42c2-a661-217683af035a")
+		)
+		(pin "5"
+			(uuid "0fa78b68-22e9-4f9f-a3c0-3c24c79aad2e")
+		)
+		(pin "26"
+			(uuid "e0c4f6b4-8fec-473b-91d2-07145bf21f2a")
+		)
+		(pin "6"
+			(uuid "713811d2-ee50-4298-91fd-46b54996de7c")
+		)
+		(pin "7"
+			(uuid "a8efb627-734e-4d1a-b868-eaaa046bb730")
+		)
+		(pin "8"
+			(uuid "5e414b28-1e33-4e38-b3be-56d9967df25b")
+		)
+		(pin "9"
+			(uuid "3f069a77-861f-47eb-9dc0-da9cc5480972")
+		)
+		(instances
+			(project "UMMTJ_Mainboard"
+				(path "/e76a9466-b710-4eed-9024-c84e345b13c7/5b058eea-716c-49c8-9bfe-6c443a88fe71"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX14662")
+		(at 49.53 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6d5510f-5bcb-40a0-9001-11397a7e28c9")
+		(property "Reference" "U12"
+			(at 51.7241 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX14662"
+			(at 51.7241 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX14662.pdf"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog Switch, beyond-the-Rails 8xSPST, I²C/SPI interface, 1.6..5.5V supply, 0.425Ohm Ron, TQFN-28"
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "325a7d42-f357-47ed-beae-bd78dae68609")
+		)
+		(pin "12"
+			(uuid "d13e3bb4-040f-410e-a63b-91b22ca077bd")
+		)
+		(pin "23"
+			(uuid "c12d7159-a667-4354-9e10-e816e2ca6119")
+		)
+		(pin "27"
+			(uuid "b34af8ab-f716-4304-a47e-b9c127a69491")
+		)
+		(pin "13"
+			(uuid "daa6c2eb-fbd6-4712-b0b7-f5b21f9a6062")
+		)
+		(pin "28"
+			(uuid "3f68c849-5144-479d-9a74-c6b4b65bb01b")
+		)
+		(pin "1"
+			(uuid "e8d8e3d9-8400-4ca6-9675-9371de1d5a53")
+		)
+		(pin "11"
+			(uuid "3831b9f0-9a6b-44e4-9abd-47721a709d2e")
+		)
+		(pin "14"
+			(uuid "c0c1cd3a-a801-4214-8603-26c3dc16c06c")
+		)
+		(pin "15"
+			(uuid "a1531619-2383-4a2a-9681-83b6ba52852b")
+		)
+		(pin "16"
+			(uuid "515181de-62b9-417a-89a1-f3ebb0978ba2")
+		)
+		(pin "17"
+			(uuid "9bddba91-c070-458f-b60c-341572c5e4f4")
+		)
+		(pin "18"
+			(uuid "8f5ec72c-86a5-435b-a205-cf543ee95677")
+		)
+		(pin "19"
+			(uuid "33c4db1d-feca-4866-8b64-f9d90ea86005")
+		)
+		(pin "2"
+			(uuid "c1d533c9-4940-4164-86b4-864302da0675")
+		)
+		(pin "20"
+			(uuid "5c6c2c36-cb0a-4a74-b69e-88ec097e707e")
+		)
+		(pin "21"
+			(uuid "94091da5-306e-4b6b-b054-5b1c96f38f08")
+		)
+		(pin "22"
+			(uuid "dc48f0bd-4a5c-4842-b47b-7681b4c1f92e")
+		)
+		(pin "24"
+			(uuid "84c1885a-03b1-4b12-b636-da44c96f5a6a")
+		)
+		(pin "25"
+			(uuid "41376562-2253-4d13-8612-9463e900ad01")
+		)
+		(pin "29"
+			(uuid "75c8ff39-8530-4d07-970b-40a9b703800f")
+		)
+		(pin "3"
+			(uuid "01835ba1-1897-4080-84a2-2e52b1db4994")
+		)
+		(pin "4"
+			(uuid "79119a80-49d5-42b7-8f66-75a4b04a54c2")
+		)
+		(pin "5"
+			(uuid "7a7f851b-acc2-43ca-ad26-750dfcd570a0")
+		)
+		(pin "26"
+			(uuid "381d7edb-b30b-41d5-83fb-2a88152e4b68")
+		)
+		(pin "6"
+			(uuid "9d401c66-9703-41b6-aca9-9ccd81f5bc18")
+		)
+		(pin "7"
+			(uuid "ec67724f-bf7f-4c81-a9eb-338c8827ed4f")
+		)
+		(pin "8"
+			(uuid "74bef591-3bfd-4a62-b6b9-d5daaf293e96")
+		)
+		(pin "9"
+			(uuid "9a4386c3-7ef9-4a93-b171-4ab74ae600f1")
+		)
+		(instances
+			(project "UMMTJ_Mainboard"
+				(path "/e76a9466-b710-4eed-9024-c84e345b13c7/5b058eea-716c-49c8-9bfe-6c443a88fe71"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

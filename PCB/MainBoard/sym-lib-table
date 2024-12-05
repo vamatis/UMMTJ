@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS55289")(type "KiCad")(uri "/Users/nicolaschaslot/Library/CloudStorage/Dropbox/Tools/Librairies/kicad_libraries/DCDC/TPS55289/TPS55289.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "/Users/nicolaschaslot/Library/CloudStorage/Dropbox/Tools/Librairies/kicad_libraries/Microcontroleurs/Raspberry/RP2350B/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
+  (lib (name "LT1910ES8#PBF")(type "KiCad")(uri "/Users/nicolaschaslot/Library/CloudStorage/Dropbox/Tools/Librairies/kicad_libraries/LT1910ES8#PBF/LT1910ES8#PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "max14661ETI-")(type "KiCad")(uri "/Users/nicolaschaslot/Library/CloudStorage/Dropbox/Tools/Librairies/kicad_libraries/MAX14661ETI-/max14661ETI-.kicad_sym")(options "")(descr ""))
+  (lib (name "MC74AC125DG")(type "KiCad")(uri "/Users/nicolaschaslot/Library/CloudStorage/Dropbox/Tools/Librairies/kicad_libraries/MC74AC125DG/MC74AC125DG.kicad_sym")(options "")(descr ""))
+)

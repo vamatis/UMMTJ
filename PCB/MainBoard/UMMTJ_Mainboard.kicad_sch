@@ -7,7 +7,7 @@
 	(title_block
 		(date "2024-11-14")
 		(rev "v1.0 Rev A")
-		(comment 1 "UMMJ MainBoard")
+		(comment 1 "UMMTJ MainBoard")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -93,9 +93,39 @@
 			)
 		)
 	)
-	(text "Onboard STM32 programmer"
+	(wire
+		(pts
+			(xy 232.41 83.82) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042c93ff-6858-4617-b3ba-b67f651a18d2")
+	)
+	(wire
+		(pts
+			(xy 240.03 59.69) (xy 232.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7044c78f-8fe0-46db-9cc6-c9bc607ee07d")
+	)
+	(wire
+		(pts
+			(xy 240.03 83.82) (xy 240.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99382b11-5f4b-4bec-808d-0ca3d538be3e")
+	)
+	(text "Onboard Black Magic Probe"
 		(exclude_from_sim no)
-		(at 45.72 93.472 0)
+		(at 54.61 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -123,7 +153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca0cb52-a022-4ead-b531-6a68d864d301")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 250.19 158.7499 0)
 			(effects
 				(font
@@ -180,7 +210,7 @@
 		(instances
 			(project "UTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -269,7 +299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56b3e26-72c2-49b1-90c3-86d51d90e123")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 271.78 149.8599 0)
 			(effects
 				(font
@@ -326,7 +356,7 @@
 		(instances
 			(project "UTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -417,7 +447,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "044b4919-3e0a-459c-a2e4-a478e3507ff0")
-		(property "Sheetname" "Analog Sections"
+		(property "Sheetname" "Analog Muxing"
 			(at 91.44 76.7584 0)
 			(effects
 				(font
@@ -434,6 +464,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "Target_Analog_Pin_uC" bidirectional
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6429cf8b-0682-4c75-81a8-a8b24dba5b13")
+		)
+		(pin "Onboard_3V3" input
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0a0d5bd-8f14-4939-bab8-6ac47b370bfc")
+		)
+		(pin "Target_Analog_Pin" input
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "043dffb0-e928-4c71-a250-da110d10d37c")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -483,8 +543,8 @@
 			)
 			(uuid "7443be80-d110-42a8-ac8a-35e6fffac2a0")
 		)
-		(pin "AVR_Prog" bidirectional
-			(at 68.58 34.29 0)
+		(pin "AVR_Target_Prog" bidirectional
+			(at 68.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,6 +552,16 @@
 				(justify right)
 			)
 			(uuid "49f6b8c4-5f88-4955-bb9b-6ed4f2cd6a71")
+		)
+		(pin "AVR_CTRL" bidirectional
+			(at 24.13 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f2af842-abb4-44c9-8a53-31bc4ab6500f")
 		)
 		(pin "Onboard_5V" input
 			(at 24.13 29.21 180)
@@ -501,62 +571,50 @@
 				)
 				(justify left)
 			)
-			(uuid "8654c526-c475-444e-b1ea-81a8463f602b")
-		)
-		(pin "AVR_Prog_ENABLE" input
-			(at 24.13 31.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a6eecc18-7766-4766-89c9-982655fb76e6")
-		)
-		(pin "Target Power" input
-			(at 68.58 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "900c982f-daac-4dfa-bccc-367c521abd30")
-		)
-		(pin "AVR_Prog_HeartBeat" output
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ab68f390-00f2-412e-bad4-c8576a53db2d")
-		)
-		(pin "AVR_Prog_Running" output
-			(at 68.58 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fffd8d7c-ae6f-42df-a88d-41b807d908b4")
-		)
-		(pin "AVR_Prog_Error" output
-			(at 68.58 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "803c453e-6851-43d0-91c4-c3f3ab0fe73d")
+			(uuid "949afb35-6f11-41d6-bd45-d76c27982437")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 134.62)
+		(size 54.61 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b7cfe31-6319-423e-b41e-35a6b5e86c56")
+		(property "Sheetname" "Buses Muxing"
+			(at 177.8 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buses.kicad_sch"
+			(at 177.8 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UMMTJ_Mainboard"
+				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
+					(page "10")
 				)
 			)
 		)
@@ -591,10 +649,148 @@
 				(justify left top)
 			)
 		)
+		(pin "Controller_USB" bidirectional
+			(at 177.8 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90fc3287-4796-4355-b8e8-54601c147913")
+		)
+		(pin "Onboard_3V3" input
+			(at 177.8 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd62f35d-def1-48e7-afb1-18edbceee7b7")
+		)
+		(pin "AVR_CTRL" bidirectional
+			(at 177.8 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72fdd4db-92fd-41d4-90be-84b7ac8ce5d8")
+		)
+		(pin "BMP_CTRL" bidirectional
+			(at 177.8 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e25aa1d-4655-4f7a-8797-8ecb291fcf2e")
+		)
+		(pin "Supply_Control" output
+			(at 232.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82551c1d-66f1-4c05-a55f-1abd7d88943f")
+		)
+		(pin "Target_Analog_Pin_uC" bidirectional
+			(at 177.8 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ded543ff-be43-48f1-993e-9809ed31b6a2")
+		)
+		(pin "Target_Digital_Pin_uC" bidirectional
+			(at 177.8 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15870ab7-293c-4f17-8eac-a7097d411d60")
+		)
 		(instances
 			(project "UMMTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 134.62)
+		(size 54.61 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b058eea-716c-49c8-9bfe-6c443a88fe71")
+		(property "Sheetname" "Digital Muxing"
+			(at 91.44 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital.kicad_sch"
+			(at 91.44 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Target_Digital_Pin_uC" bidirectional
+			(at 146.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5051c936-8a5c-4d21-aafd-cc4c48032a86")
+		)
+		(pin "Target_Digital_Pin" bidirectional
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bba23dcc-a08a-46dc-86ed-adfa38510b7b")
+		)
+		(pin "Onboard_3V3" input
+			(at 146.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a55f327-024f-4b73-b2c8-fad9e37bac81")
+		)
+		(instances
+			(project "UMMTJ_Mainboard"
+				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
+					(page "9")
 				)
 			)
 		)
@@ -611,7 +807,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "943eb479-46c5-487d-a06d-7f76a5595e0a")
-		(property "Sheetname" "STM32 Programmer"
+		(property "Sheetname" "BMP Programmer"
 			(at 24.13 76.7584 0)
 			(effects
 				(font
@@ -620,7 +816,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "stm32.kicad_sch"
+		(property "Sheetfile" "bmp.kicad_sch"
 			(at 24.13 111.0746 0)
 			(effects
 				(font
@@ -628,6 +824,46 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "BMP_USB" bidirectional
+			(at 24.13 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e68d75c-6a12-45dd-9405-7e4483440bfe")
+		)
+		(pin "Onboard_3V3" input
+			(at 24.13 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13bf72f9-eafd-4cde-a447-d443f10113b6")
+		)
+		(pin "BMP_Target_Prog" bidirectional
+			(at 68.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85e01931-7ea6-4213-b3e9-416f7e5add43")
+		)
+		(pin "BMP_CTRL" bidirectional
+			(at 24.13 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b6e26fb-37cd-4676-9243-fdd9c0ecf4b3")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -638,8 +874,8 @@
 		)
 	)
 	(sheet
-		(at 176.53 26.67)
-		(size 52.07 34.29)
+		(at 177.8 29.21)
+		(size 54.61 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -650,7 +886,7 @@
 		)
 		(uuid "b838e3b6-a0b3-4e31-8fe6-206192f1bd4f")
 		(property "Sheetname" "Power Supplies"
-			(at 176.53 25.9584 0)
+			(at 177.8 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,13 +895,43 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 176.53 61.5446 0)
+			(at 177.8 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Target_PowerSupplies" output
+			(at 177.8 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78921b10-265a-4854-9335-5510cc52a32b")
+		)
+		(pin "Supply_Control" input
+			(at 232.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd69b52a-664c-43b1-978b-59f8a3c6e844")
+		)
+		(pin "Onboard_3V3" output
+			(at 177.8 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10fc64e4-aa49-41ad-8db7-c112594abf27")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -704,6 +970,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "AVR_Target_Prog" bidirectional
+			(at 91.44 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7d2a8ba-cc2e-44ab-90b7-133ce9787df8")
+		)
+		(pin "BMP_Target_Prog" bidirectional
+			(at 91.44 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1bdc8680-9e47-4bd1-bd46-eb3030f93ea6")
+		)
+		(pin "Target_Analog_Pins" bidirectional
+			(at 91.44 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a5b91ec-f187-433f-bf12-c328b10a9cb4")
+		)
+		(pin "Target_Digital_Pins" bidirectional
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f94b1cf-0087-4611-afb0-8d8b5244193f")
+		)
+		(pin "Target_USB" bidirectional
+			(at 91.44 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "060e3db4-0784-4247-95e1-1585dec90813")
+		)
+		(pin "Target_PowerSupplies" input
+			(at 143.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "755c1409-1a22-492b-8955-5deb7eafc339")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -753,7 +1079,7 @@
 			)
 			(uuid "55ffb15d-0e50-45f3-880d-eba333e3b953")
 		)
-		(pin "STM32_USB" bidirectional
+		(pin "BMP_USB" bidirectional
 			(at 69.85 142.24 0)
 			(effects
 				(font

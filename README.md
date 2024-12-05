@@ -42,6 +42,8 @@ There are multiple parts that I hope will be covered by the project in the end, 
 	- Firmware to run on the onboard microcontroller
 	- SDK / application examples of the control software side, which operates the jig
 
+	--> using https://github.com/snhobbs/kicad-parts-placer and https://github.com/snhobbs/kicad-testpoints-pcm ?
+
 
 ## How do I get one?
 
