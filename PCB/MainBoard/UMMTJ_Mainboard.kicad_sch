@@ -123,6 +123,16 @@
 		)
 		(uuid "99382b11-5f4b-4bec-808d-0ca3d538be3e")
 	)
+	(text "ADD integrated PI CM4 Board connector"
+		(exclude_from_sim no)
+		(at 57.15 180.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2dd4a011-ab65-418a-a7e2-cbad4c1eb3ac")
+	)
 	(text "Onboard Black Magic Probe"
 		(exclude_from_sim no)
 		(at 54.61 78.994 0)

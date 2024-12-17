@@ -5626,6 +5626,16 @@
 		)
 		(uuid "79f75fd1-a14f-43fb-951a-3943039bfedd")
 	)
+	(text "ADD pin for remote control from the \nembedded CM4 on the CM4 connector"
+		(exclude_from_sim no)
+		(at 7.112 78.74 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "e5562f36-7026-4fd1-9c47-4047e43c3660")
+	)
 	(label "VREG_LX"
 		(at 60.96 63.5 0)
 		(fields_autoplaced yes)

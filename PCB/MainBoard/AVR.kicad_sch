@@ -4032,7 +4032,7 @@
 		)
 		(uuid "f5b7bf77-83eb-4d1a-9762-48032f472dc8")
 	)
-	(text "TODO:\n\nManage the OE PIN for the transceiver"
+	(text "TODO:\n\nManage the OE PIN for the transceiver\n\nADD programming pads for the 32U4"
 		(exclude_from_sim no)
 		(at 165.608 97.028 0)
 		(effects
