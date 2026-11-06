@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "e76a9466-b710-4eed-9024-c84e345b13c7")
 	(paper "A4")
 	(title_block
@@ -17,8 +17,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,6 +31,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,47 +41,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -91,37 +107,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(wire
-		(pts
-			(xy 232.41 83.82) (xy 240.03 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "042c93ff-6858-4617-b3ba-b67f651a18d2")
-	)
-	(wire
-		(pts
-			(xy 240.03 59.69) (xy 232.41 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7044c78f-8fe0-46db-9cc6-c9bc607ee07d")
-	)
-	(wire
-		(pts
-			(xy 240.03 83.82) (xy 240.03 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99382b11-5f4b-4bec-808d-0ca3d538be3e")
 	)
 	(text "ADD integrated PI CM4 Board connector"
 		(exclude_from_sim no)
@@ -153,18 +140,52 @@
 		)
 		(uuid "577bdcc2-7c45-4ccb-b483-2b35960d82b9")
 	)
+	(wire
+		(pts
+			(xy 232.41 83.82) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042c93ff-6858-4617-b3ba-b67f651a18d2")
+	)
+	(wire
+		(pts
+			(xy 240.03 59.69) (xy 232.41 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7044c78f-8fe0-46db-9cc6-c9bc607ee07d")
+	)
+	(wire
+		(pts
+			(xy 240.03 83.82) (xy 240.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99382b11-5f4b-4bec-808d-0ca3d538be3e")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 247.65 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca0cb52-a022-4ead-b531-6a68d864d301")
 		(property "Reference" "H2"
 			(at 250.19 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,6 +195,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 250.19 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,42 +206,50 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 247.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 247.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 247.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" ""
 			(at 247.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "UTJ_Mainboard"
+			(project "UMMTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
 					(reference "H2")
 					(unit 1)
@@ -230,14 +261,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 247.65 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03bbc02-cc4f-40b8-9f50-0840b4cdca1d")
 		(property "Reference" "H1"
 			(at 250.19 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,6 +282,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 250.19 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,42 +293,50 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" ""
 			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "UMMTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
 					(reference "H1")
 					(unit 1)
@@ -303,14 +348,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 269.24 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56b3e26-72c2-49b1-90c3-86d51d90e123")
 		(property "Reference" "H3"
 			(at 271.78 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,6 +369,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 271.78 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,42 +380,50 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" ""
 			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "UTJ_Mainboard"
+			(project "UMMTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
 					(reference "H3")
 					(unit 1)
@@ -376,14 +435,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 269.24 160.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c71652-dbbf-4d60-ae21-6ecfc07cdba2")
 		(property "Reference" "H4"
 			(at 271.78 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,6 +456,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 271.78 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,42 +467,50 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 269.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 269.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 269.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" ""
 			(at 269.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "UTJ_Mainboard"
+			(project "UMMTJ_Mainboard"
 				(path "/e76a9466-b710-4eed-9024-c84e345b13c7"
 					(reference "H4")
 					(unit 1)
@@ -448,17 +521,23 @@
 	(sheet
 		(at 91.44 77.47)
 		(size 54.61 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "044b4919-3e0a-459c-a2e4-a478e3507ff0")
-		(property "Sheetname" "Analog Muxing"
+		(property "Sheetname" "Mix Muxing"
 			(at 91.44 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,8 +545,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "analog.kicad_sch"
+		(property "Sheetfile" "mix.kicad_sch"
 			(at 91.44 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,33 +558,33 @@
 		)
 		(pin "Target_Analog_Pin_uC" bidirectional
 			(at 146.05 95.25 0)
+			(uuid "6429cf8b-0682-4c75-81a8-a8b24dba5b13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6429cf8b-0682-4c75-81a8-a8b24dba5b13")
 		)
 		(pin "Onboard_3V3" input
 			(at 146.05 81.28 0)
+			(uuid "e0a0d5bd-8f14-4939-bab8-6ac47b370bfc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0a0d5bd-8f14-4939-bab8-6ac47b370bfc")
 		)
 		(pin "Target_Analog_Pin" input
 			(at 146.05 88.9 0)
+			(uuid "043dffb0-e928-4c71-a250-da110d10d37c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "043dffb0-e928-4c71-a250-da110d10d37c")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -516,17 +597,23 @@
 	(sheet
 		(at 24.13 26.67)
 		(size 44.45 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "099dec5e-b2a2-447c-89ee-a6d1c836b0de")
 		(property "Sheetname" "AVR Programmer"
 			(at 24.13 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,6 +623,8 @@
 		)
 		(property "Sheetfile" "AVR.kicad_sch"
 			(at 24.13 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,43 +634,43 @@
 		)
 		(pin "AVR_USB" bidirectional
 			(at 24.13 39.37 180)
+			(uuid "7443be80-d110-42a8-ac8a-35e6fffac2a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7443be80-d110-42a8-ac8a-35e6fffac2a0")
 		)
 		(pin "AVR_Target_Prog" bidirectional
 			(at 68.58 31.75 0)
+			(uuid "49f6b8c4-5f88-4955-bb9b-6ed4f2cd6a71")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "49f6b8c4-5f88-4955-bb9b-6ed4f2cd6a71")
 		)
 		(pin "AVR_CTRL" bidirectional
 			(at 24.13 43.18 180)
+			(uuid "2f2af842-abb4-44c9-8a53-31bc4ab6500f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2f2af842-abb4-44c9-8a53-31bc4ab6500f")
 		)
 		(pin "Onboard_5V" input
 			(at 24.13 29.21 180)
+			(uuid "949afb35-6f11-41d6-bd45-d76c27982437")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "949afb35-6f11-41d6-bd45-d76c27982437")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -594,17 +683,23 @@
 	(sheet
 		(at 177.8 134.62)
 		(size 54.61 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2b7cfe31-6319-423e-b41e-35a6b5e86c56")
 		(property "Sheetname" "Buses Muxing"
 			(at 177.8 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,6 +709,8 @@
 		)
 		(property "Sheetfile" "buses.kicad_sch"
 			(at 177.8 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,17 +729,23 @@
 	(sheet
 		(at 177.8 80.01)
 		(size 54.61 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2e9105ed-1b8c-4dab-b557-dafa0290dae2")
 		(property "Sheetname" "Main Controller"
 			(at 177.8 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,6 +755,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 177.8 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,73 +766,73 @@
 		)
 		(pin "Controller_USB" bidirectional
 			(at 177.8 101.6 180)
+			(uuid "90fc3287-4796-4355-b8e8-54601c147913")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "90fc3287-4796-4355-b8e8-54601c147913")
 		)
 		(pin "Onboard_3V3" input
 			(at 177.8 82.55 180)
+			(uuid "bd62f35d-def1-48e7-afb1-18edbceee7b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd62f35d-def1-48e7-afb1-18edbceee7b7")
 		)
 		(pin "AVR_CTRL" bidirectional
 			(at 177.8 105.41 180)
+			(uuid "72fdd4db-92fd-41d4-90be-84b7ac8ce5d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "72fdd4db-92fd-41d4-90be-84b7ac8ce5d8")
 		)
 		(pin "BMP_CTRL" bidirectional
 			(at 177.8 107.95 180)
+			(uuid "6e25aa1d-4655-4f7a-8797-8ecb291fcf2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e25aa1d-4655-4f7a-8797-8ecb291fcf2e")
 		)
 		(pin "Supply_Control" output
 			(at 232.41 83.82 0)
+			(uuid "82551c1d-66f1-4c05-a55f-1abd7d88943f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "82551c1d-66f1-4c05-a55f-1abd7d88943f")
 		)
 		(pin "Target_Analog_Pin_uC" bidirectional
 			(at 177.8 92.71 180)
+			(uuid "ded543ff-be43-48f1-993e-9809ed31b6a2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ded543ff-be43-48f1-993e-9809ed31b6a2")
 		)
 		(pin "Target_Digital_Pin_uC" bidirectional
 			(at 177.8 110.49 180)
+			(uuid "15870ab7-293c-4f17-8eac-a7097d411d60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "15870ab7-293c-4f17-8eac-a7097d411d60")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -740,17 +845,23 @@
 	(sheet
 		(at 91.44 134.62)
 		(size 54.61 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5b058eea-716c-49c8-9bfe-6c443a88fe71")
 		(property "Sheetname" "Digital Muxing"
 			(at 91.44 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,6 +871,8 @@
 		)
 		(property "Sheetfile" "digital.kicad_sch"
 			(at 91.44 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,33 +882,33 @@
 		)
 		(pin "Target_Digital_Pin_uC" bidirectional
 			(at 146.05 143.51 0)
+			(uuid "5051c936-8a5c-4d21-aafd-cc4c48032a86")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5051c936-8a5c-4d21-aafd-cc4c48032a86")
 		)
 		(pin "Target_Digital_Pin" bidirectional
 			(at 146.05 149.86 0)
+			(uuid "bba23dcc-a08a-46dc-86ed-adfa38510b7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bba23dcc-a08a-46dc-86ed-adfa38510b7b")
 		)
 		(pin "Onboard_3V3" input
 			(at 146.05 138.43 0)
+			(uuid "7a55f327-024f-4b73-b2c8-fad9e37bac81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a55f327-024f-4b73-b2c8-fad9e37bac81")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -808,17 +921,23 @@
 	(sheet
 		(at 24.13 77.47)
 		(size 44.45 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "943eb479-46c5-487d-a06d-7f76a5595e0a")
 		(property "Sheetname" "BMP Programmer"
 			(at 24.13 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,6 +947,8 @@
 		)
 		(property "Sheetfile" "bmp.kicad_sch"
 			(at 24.13 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,43 +958,43 @@
 		)
 		(pin "BMP_USB" bidirectional
 			(at 24.13 97.79 180)
+			(uuid "9e68d75c-6a12-45dd-9405-7e4483440bfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9e68d75c-6a12-45dd-9405-7e4483440bfe")
 		)
 		(pin "Onboard_3V3" input
 			(at 24.13 81.28 180)
+			(uuid "13bf72f9-eafd-4cde-a447-d443f10113b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "13bf72f9-eafd-4cde-a447-d443f10113b6")
 		)
 		(pin "BMP_Target_Prog" bidirectional
 			(at 68.58 87.63 0)
+			(uuid "85e01931-7ea6-4213-b3e9-416f7e5add43")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "85e01931-7ea6-4213-b3e9-416f7e5add43")
 		)
 		(pin "BMP_CTRL" bidirectional
 			(at 24.13 101.6 180)
+			(uuid "9b6e26fb-37cd-4676-9243-fdd9c0ecf4b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9b6e26fb-37cd-4676-9243-fdd9c0ecf4b3")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -886,17 +1007,23 @@
 	(sheet
 		(at 177.8 29.21)
 		(size 54.61 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b838e3b6-a0b3-4e31-8fe6-206192f1bd4f")
 		(property "Sheetname" "Power Supplies"
 			(at 177.8 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,6 +1033,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 177.8 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,33 +1044,33 @@
 		)
 		(pin "Target_PowerSupplies" output
 			(at 177.8 34.29 180)
+			(uuid "78921b10-265a-4854-9335-5510cc52a32b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "78921b10-265a-4854-9335-5510cc52a32b")
 		)
 		(pin "Supply_Control" input
 			(at 232.41 59.69 0)
+			(uuid "bd69b52a-664c-43b1-978b-59f8a3c6e844")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd69b52a-664c-43b1-978b-59f8a3c6e844")
 		)
 		(pin "Onboard_3V3" output
 			(at 177.8 40.64 180)
+			(uuid "10fc64e4-aa49-41ad-8db7-c112594abf27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "10fc64e4-aa49-41ad-8db7-c112594abf27")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -954,17 +1083,23 @@
 	(sheet
 		(at 91.44 26.67)
 		(size 52.07 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c5981271-bc42-44eb-8e0c-b2f9b33dc57f")
 		(property "Sheetname" "Target_Connectors"
 			(at 91.44 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,6 +1109,8 @@
 		)
 		(property "Sheetfile" "target.kicad_sch"
 			(at 91.44 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,63 +1120,63 @@
 		)
 		(pin "AVR_Target_Prog" bidirectional
 			(at 91.44 31.75 180)
+			(uuid "d7d2a8ba-cc2e-44ab-90b7-133ce9787df8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d7d2a8ba-cc2e-44ab-90b7-133ce9787df8")
 		)
 		(pin "BMP_Target_Prog" bidirectional
 			(at 91.44 46.99 180)
+			(uuid "1bdc8680-9e47-4bd1-bd46-eb3030f93ea6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1bdc8680-9e47-4bd1-bd46-eb3030f93ea6")
 		)
 		(pin "Target_Analog_Pins" bidirectional
 			(at 91.44 53.34 180)
+			(uuid "0a5b91ec-f187-433f-bf12-c328b10a9cb4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0a5b91ec-f187-433f-bf12-c328b10a9cb4")
 		)
 		(pin "Target_Digital_Pins" bidirectional
 			(at 143.51 57.15 0)
+			(uuid "4f94b1cf-0087-4611-afb0-8d8b5244193f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f94b1cf-0087-4611-afb0-8d8b5244193f")
 		)
 		(pin "Target_USB" bidirectional
 			(at 91.44 59.69 180)
+			(uuid "060e3db4-0784-4247-95e1-1585dec90813")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "060e3db4-0784-4247-95e1-1585dec90813")
 		)
 		(pin "Target_PowerSupplies" input
 			(at 143.51 31.75 0)
+			(uuid "755c1409-1a22-492b-8955-5deb7eafc339")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "755c1409-1a22-492b-8955-5deb7eafc339")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -1052,17 +1189,23 @@
 	(sheet
 		(at 25.4 134.62)
 		(size 44.45 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fda214a4-6046-4b80-97b3-09a5468241a6")
 		(property "Sheetname" "USB"
 			(at 25.4 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,6 +1215,8 @@
 		)
 		(property "Sheetfile" "usb.kicad_sch"
 			(at 25.4 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,43 +1226,43 @@
 		)
 		(pin "Controller_USB" bidirectional
 			(at 69.85 138.43 0)
+			(uuid "55ffb15d-0e50-45f3-880d-eba333e3b953")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "55ffb15d-0e50-45f3-880d-eba333e3b953")
 		)
 		(pin "BMP_USB" bidirectional
 			(at 69.85 142.24 0)
+			(uuid "698f804d-345a-465c-8e2a-cf18cd5ddb48")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "698f804d-345a-465c-8e2a-cf18cd5ddb48")
 		)
 		(pin "AVR_USB" bidirectional
 			(at 69.85 146.05 0)
+			(uuid "f63305d0-e3d7-44eb-87e5-10e17523a9c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f63305d0-e3d7-44eb-87e5-10e17523a9c1")
 		)
 		(pin "Target_USB" bidirectional
 			(at 69.85 149.86 0)
+			(uuid "fa3a110c-a91c-4ecd-9b71-ff1fe91c0cad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa3a110c-a91c-4ecd-9b71-ff1fe91c0cad")
 		)
 		(instances
 			(project "UMMTJ_Mainboard"
@@ -1132,4 +1277,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
